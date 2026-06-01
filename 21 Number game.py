@@ -8,9 +8,10 @@ while current<= 21:
     user = int(input("your turn  "  ))
  for i in range(user):
    current += 1
+   print("you played", current)
    if current == 21:
-     print("the current value is 21\nyou lose")
-     break
+      print("the current value is 21\nyou lose")
+      break
  if current == 21:
   break
 #computer turn
